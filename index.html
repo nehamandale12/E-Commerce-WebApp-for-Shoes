@@ -1,0 +1,482 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="shortcut icon" href="./images/logo1.png" type="image/svg+xml">
+
+    <!-- import the CSS file in HTML -->
+    <link rel="stylesheet" href="style.css">
+
+    <!--Icon font link-->
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+
+    <title>Neha-Tech-Shop Web Desing Full Website</title>
+</head>
+
+<body>
+
+    <!--Header Section Start -->
+    <section id="header" class="header">
+        <a href="#" class="logo"><img src="./images/logo2.png" style="height: 70px;" alt=""> </a>
+
+        <nav class="navbar">
+            <a href="#home">Home</a>
+            <a href="#About">About</a>
+            <a href="#contact">Contact</a>
+            <a href="#category">Category</a>
+            <a href="#shop">Shop</a>
+
+        </nav>
+        <div class="icons">
+            <div id="menu-btn" class="fas fa-bars"></div>
+            <a href="#" class="fas fa-heart"></a>
+            <a href="#" class="fas fa-shopping-cart"></a>
+
+        </div>
+
+    </section>
+    <!-- header section ends -->
+
+    <!-- Home section starts -->
+    <section class="home" id="home">
+        <!-- 1-->
+
+        <div class="slide active"
+        style="background: url(./images/herobg5.jpg) no-repeat; background-size: cover; background-position: center;">
+        <div class="content">
+            <span>Pick the perfect pair</span>
+            <h3>Step into style and comfort with our 'UrbanStride' shoes, featuring a trendy design, cushioned insole,<br>
+                 and flexible outsole for effortless all-day wear.</h3><br>
+
+                <h3>Make a statement with our 'GlamourStep' heels, designed to turn heads with their elegant silhouette,<br> 
+                plush padding, and non-slip sole for a blend of fashion and functionality.</h3><br>
+                
+                <h3>Experience the perfect fusion of style and performance with our 'SportFlex' sneakers, 
+                engineered<br> with a breathable knit upper, responsive cushioning, and grippy outsole for optimal
+                 comfort and <br>traction during your workouts.</h3><br>
+
+            <a href="#" class="btn">read more</a>
+            
+            <div class="more-info" style="display: none;"><br>
+
+                <h4>Additional Information:</h4><br>
+
+                <p>Materials: High-quality shoes are typically crafted from premium materials that are durable and long-lasting. Common materials include full-grain leather, suede, nubuck, and high-grade synthetic materials. These materials offer excellent strength, flexibility, and resistance to wear and tear.</p>
+                <p>Comfort: High-quality shoes prioritize comfort. They often incorporate features like cushioned insoles, arch support, and adequate padding around the collar and tongue. Additionally, they may have breathable linings and ergonomic designs that promote foot health and reduce fatigue.</p>
+            </div>
+        </div>
+    </div>
+
+        <!-- 2-->
+        <div class="slide"
+            style="background: url(./images/herobg2.jpg) no-repeat; background-size: cover; background-position: center;">
+            <div class="content">
+                <span>Exclusive Sport Shoes</span>
+                <h3>Embrace comfort and versatility with our 'EverydayEssence' shoes, crafted with a soft, breathable material, cushioned insole, and slip-resistant outsole for effortless style and all-day wearability. </h3>
+                <a href="#" class="btn">read more</a>
+            </div>
+        </div>
+        <!-- 3-->
+        <div class="slide"
+            style="background: url(./images/shoes4.png) no-repeat; background-size: cover; background-position: center;">
+            <div class="content">
+                <span>Smart & Sporty</span>
+                <h3>Discover ultimate comfort in our 'CloudWalk' sneakers, designed with a plush memory foam insole, flexible knit upper,<br>and shock-absorbing sole for a heavenly walking experience</h3>
+                <a href="#" class="btn">read more</a>
+            </div>
+        </div>
+
+        <div id="next-slide" onclick="next()" class="fas fa-angle-right"></div>
+        <div id="prev-slide" onclick="prev()" class="fas fa-angle-left"></div>
+
+    </section>
+
+    <!--read more button-->
+
+     <!--about section start-->
+    <section class="About" id="About"></section>
+    <h1 class="heading">Product<span> Details</span></h1>
+
+    <section>
+        <h1>About Shoes </h1>
+        <p>Welcome to Shoes R Us, your one-stop destination for high-quality shoes that combine style, comfort, and durability. We are passionate about footwear and strive to offer an extensive collection that caters to the diverse tastes and preferences of our customers.</p><br>
+  
+        <h1>Our Mission</h1>
+        <p>At Shoes R Us, our mission is to provide footwear that not only looks great but also feels great. We believe that comfortable shoes can make a significant difference in your daily life, whether you're strolling through the city or embarking on an outdoor adventure. We aim to deliver products that meet the highest standards of quality, craftsmanship, and innovation.</p><br>
+  
+        <h1>Our Product Range</h1>
+        <p>With a wide range of shoes for men, women, and children, we have something for everyone. From casual sneakers to elegant dress shoes, from rugged hiking boots to cozy slippers, we curate our collection to ensure that every customer finds the perfect pair.</p><br>
+  
+        <h1>Quality and Sustainability</h1>
+        <p>At Shoes R Us, we are committed to quality and sustainability. We partner with reputable manufacturers who prioritize ethical practices and use eco-friendly materials. We believe in promoting responsible consumption by offering products that are built to last, reducing the environmental impact of the fashion industry.</p><br>
+  
+        <h1>Contact Us</h1>
+        <p>If you have any questions, feedback, or inquiries, we'd love to hear from you. You can reach our customer support team by email, phone, or through our contact form on the website. We are here to assist you and ensure that your shopping experience with Shoes R Us is exceptional.</p><br>
+      </section>
+
+    <!--caregory section start-->
+    <section class="category" id="category">
+        <h1 class="heading">Product<span> Pramotion</span></h1>
+        <div class="box-container">
+            <a href="#" class="box">
+                <img src="./images/product-1.jpg">
+                <h3>Product 1</h3>
+            </a>
+            <a href="#" class="box">
+                <img src="./images/product-2.jpg">
+                <h3>Product 2</h3>
+            </a>
+            <a href="#" class="box">
+                <img src="./images/product-3.jpg">
+                <h3>Product 3</h3>
+            </a>
+            <a href="#" class="box">
+                <img src="./images/product-4.jpg">
+                <h3>Product 4</h3>
+            </a>
+            <a href="#" class="box">
+                <img src="./images/product-5.jpg">
+                <h3>Product 5</h3>
+            </a>
+            <a href="#" class="box">
+                <img src="./images/product-6.jpg">
+                <h3>Product 6</h3>
+            </a>
+        </div>
+    </section>
+    <!-- category section end -->
+
+    <!-- pramotion section start-->
+    <section class="pramotion" id="pramotion">
+        <div class="box-container">
+            <div class="collection-card" style="background-image:url(./images/collection-1.jpg)">
+                <h1>Sport Collection</h1>
+                <a href="#" class="btn">Explore More<i class="fas fa-arrow-right"></i></a>
+            </div>
+            <div class="collection-card" style="background-image:url(./images/collection-2.jpg)">
+                <h1>Sport Collection</h1>
+                <a href="#" class="btn">Explore More<i class="fas fa-arrow-right"></i></a>
+            </div>
+            <div class="collection-card" style="background-image:url(./images/collection-3.jpg)">
+                <h1>Sport Collection</h1>
+                <a href="#" class="btn">Explore More<i class="fas fa-arrow-right"></i></a>
+            </div>
+
+        </div>
+    </section>
+    <!-- pramotion section ends-->
+
+
+    <!-- shop section ends-->
+    <section class="shop" id="shop">
+        <h1 class="heading">Our<span> Shop</span></h1>
+        <div class="box-container">
+
+            <div class="box">
+                <div class="img">
+                    <img src="./images/1.jpg">
+                    <div class="icons">
+                        <a href="#" class="fas fa-eye"></a>
+                        <a href="#" class="fas fa-heart"></a>
+                        <a href="#" class="fas fa-share"></a>
+                    </div>
+                </div>
+                <div class="content">
+                    <h3>Nike Air Max</h3>
+                    <div class="price">₹4500<span> ₹8,000</span></div>
+                    <a href="#" class="btn">Add to Cart</a>
+                </div>
+            </div>
+            <div class="box">
+                <div class="img">
+                    <img src="./images/2.jpg">
+                    <div class="icons">
+                        <a href="#" class="fas fa-eye"></a>
+                        <a href="#" class="fas fa-heart"></a>
+                        <a href="#" class="fas fa-share"></a>
+                    </div>
+                </div>
+                <div class="content">
+                    <h3>Adidas Ultraboost</h3>
+                    <div class="price">₹5,000<span>₹7,000</span></div>
+                    <a href="#" class="btn">Add to Cart</a>
+                </div>
+            </div>
+            <div class="box">
+                <div class="img">
+                    <img src="./images/3.jpg">
+                    <div class="icons">
+                        <a href="#" class="fas fa-eye"></a>
+                        <a href="#" class="fas fa-heart"></a>
+                        <a href="#" class="fas fa-share"></a>
+                    </div>
+                </div>
+                <div class="content">
+                    <h3>Under Armour HOVR Phantom</h3>
+                    <div class="price"> ₹4,000 <span> ₹6,500 </span></div>
+                    <a href="#" class="btn">Add to Cart</a>
+                </div>
+            </div>
+            <div class="box">
+                <div class="img">
+                    <img src="./images/4.jpg">
+                    <div class="icons">
+                        <a href="#" class="fas fa-eye"></a>
+                        <a href="#" class="fas fa-heart"></a>
+                        <a href="#" class="fas fa-share"></a>
+                    </div>
+                </div>
+                <div class="content">
+                    <h3>New Balance Fresh Foam </h3>
+                    <div class="price">₹3,000<span>₹5,000</span></div>
+                    <a href="#" class="btn">Add to Cart</a>
+                </div>
+            </div>
+            <div class="box">
+                <div class="img">
+                    <img src="./images/product-1.jpg">
+                    <div class="icons">
+                        <a href="#" class="fas fa-eye"></a>
+                        <a href="#" class="fas fa-heart"></a>
+                        <a href="#" class="fas fa-share"></a>
+                    </div>
+                </div>
+                <div class="content">
+                    <h3>ASICS Gel-Kayano</h3>
+                    <div class="price">$2,500<span>₹4,500 </span></div>
+                    <a href="#" class="btn">Add to Cart</a>
+                </div>
+            </div>
+            <div class="box">
+                <div class="img">
+                    <img src="./images/product-4.jpg">
+                    <div class="icons">
+                        <a href="#" class="fas fa-eye"></a>
+                        <a href="#" class="fas fa-heart"></a>
+                        <a href="#" class="fas fa-share"></a>
+                    </div>
+                </div>
+                <div class="content">
+                    <h3>Puma Ignite Limitless</h3>
+                    <div class="price">₹4,500<span>₹6,500</span></div>
+                    <a href="#" class="btn">Add to Cart</a>
+                </div>
+            </div>
+            <div class="box">
+                <div class="img">
+                    <img src="./images/product-2.jpg">
+                    <div class="icons">
+                        <a href="#" class="fas fa-eye"></a>
+                        <a href="#" class="fas fa-heart"></a>
+                        <a href="#" class="fas fa-share"></a>
+                    </div>
+                </div>
+                <div class="content">
+                    <h3>Reebok Nano X1</h3>
+                    <div class="price">₹5,000<span>₹7,500</span></div>
+                    <a href="#" class="btn">Add to Cart</a>
+                </div>
+            </div>
+            <div class="box">
+                <div class="img">
+                    <img src="./images/product-3.jpg">
+                    <div class="icons">
+                        <a href="#" class="fas fa-eye"></a>
+                        <a href="#" class="fas fa-heart"></a>
+                        <a href="#" class="fas fa-share"></a>
+                    </div>
+                </div>
+                <div class="content">
+                    <h3>Brooks Ghost</h3>
+                    <div class="price"> ₹4,000<span> ₹6,000</span></div>
+                    <a href="#" class="btn">Add to Cart</a>
+                </div>
+            </div>
+            
+
+        </div>
+
+    </section>
+    <!--Shop section ends-->
+
+    <!-- Services section starts-->
+    <section class="section services">
+        <div class="container">
+            <ul class="service-list">
+
+                <li class="services-item">
+                    <div class="service-card">
+
+                        <div class="card-icon">
+                            <img src="./images/service-1.png" alt="Service icon" width="53" height="28" loading="lazy">
+
+                        </div>
+
+                        <div>
+                            <h3 class="h4 card-title">Free Shipping</h3>
+                            <p class="card-text">All orders over <span>$150</span></p>
+                        </div>
+
+                    </div>
+                </li>
+                <li class="services-item">
+                    <div class="service-card">
+
+                        <div class="card-icon">
+                            <img src="./images/service-2.png" alt="Service icon" width="53" height="28" loading="lazy">
+
+                        </div>
+
+                        <div>
+                            <h3 class="h4 card-title">Quick Payment</h3>
+                            <p class="card-text">100% secure payment</p>
+                        </div>
+
+                    </div>
+                </li>
+                <li class="services-item">
+                    <div class="service-card">
+
+                        <div class="card-icon">
+                            <img src="./images/service-3.png" alt="Service icon" width="53" height="28" loading="lazy">
+
+                        </div>
+
+                        <div>
+                            <h3 class="h4 card-title">Free Returns</h3>
+                            <p class="card-text">Money back in working 7 days</p>
+                        </div>
+
+                    </div>
+                </li>
+
+            </ul>
+
+        </div>
+
+    </section>
+    <!--Service section ends-->
+
+    <!--Post section starts-->
+    <section class="section insta-post">
+        <ul class="insta-post-list has-scrollbar">
+
+            <li class="insta-post-item">
+                <img src="./images/insta-1.jpg" class="insta-post-banner image-contain" alt="" width="100" height="100" loading="lazy">
+                <a href="#" class="insta-post-link">
+                    <ion-icon name="logo-instagram"></ion-icon>
+                </a>
+            </li>
+            <li class="insta-post-item">
+                <img src="./images/insta-2.jpg" class="insta-post-banner image-contain" alt="" width="100" height="100" loading="lazy">
+                <a href="#" class="insta-post-link">
+                    <ion-icon name="logo-instagram"></ion-icon>
+                </a>
+            </li>
+            <li class="insta-post-item">
+                <img src="./images/insta-3.jpg" class="insta-post-banner image-contain" alt="" width="100" height="100" loading="lazy">
+                <a href="#" class="insta-post-link">
+                    <ion-icon name="logo-instagram"></ion-icon>
+                </a>
+            </li>
+            <li class="insta-post-item">
+                <img src="./images/insta-4.jpg" class="insta-post-banner image-contain" alt="" width="100" height="100" loading="lazy">
+                <a href="#" class="insta-post-link">
+                    <ion-icon name="logo-instagram"></ion-icon>
+                </a>
+            </li>
+            <li class="insta-post-item">
+                <img src="./images/insta-5.jpg" class="insta-post-banner image-contain" alt="" width="100" height="100" loading="lazy">
+                <a href="#" class="insta-post-link">
+                    <ion-icon name="logo-instagram"></ion-icon>
+                </a>
+            </li>
+            <li class="insta-post-item">
+                <img src="./images/insta-6.jpg" class="insta-post-banner image-contain" alt="" width="100" height="100" loading="lazy">
+                <a href="#" class="insta-post-link">
+                    <ion-icon name="logo-instagram"></ion-icon>
+                </a>
+            </li>
+            <li class="insta-post-item">
+                <img src="./images/insta-7.jpg" class="insta-post-banner image-contain" alt="" width="100" height="100" loading="lazy">
+                <a href="#" class="insta-post-link">
+                    <ion-icon name="logo-instagram"></ion-icon>
+                </a>
+            </li>
+            <li class="insta-post-item">
+                <img src="./images/insta-8.jpg" class="insta-post-banner image-contain" alt="" width="100" height="100" loading="lazy">
+                <a href="#" class="insta-post-link">
+                    <ion-icon name="logo-instagram"></ion-icon>
+                </a>
+            </li>
+
+        </ul>
+
+    </section>
+    <!--Post section ends-->
+
+    <!--Footer section starts-->
+
+    <section class="footer" id="contact">
+        <div class="logo">
+            <a href="#home">
+                <img src="./images/logo2.png" style="height: 70px;" alt="logo" width="220" height="70">
+            </a>
+        </div>
+        <div class="box-container">
+
+            <div class="box">
+                <h3>Quick Links</h3>
+                <a href="#home" class="link"><i class="fas fa-angle-right"></i>Home</a>
+                <a href="#about" class="link"><i class="fas fa-angle-right"></i>about</a>
+                <a href="#shop" class="link"><i class="fas fa-angle-right"></i>shop</a>
+                <a href="#category" class="link"><i class="fas fa-angle-right"></i>category</a>
+            </div>
+            
+            <div class="box">
+                <h3>My Favorite</h3>
+                <a href="#" class="link"><i class="fas fa-angle-right"></i>My Favorite</a>
+                <a href="#" class="link"><i class="fas fa-angle-right"></i>My orders</a>
+                <a href="#" class="link"><i class="fas fa-angle-right"></i>My Wishlists</a>
+                <a href="#" class="link"><i class="fas fa-angle-right"></i>privacy policy</a>
+                
+            </div>
+            
+            <div class="box">
+                <h3>Contact Details</h3>
+                <a href="#" class="link"><i class="fas fa-phone"></i>+111-222-333</a>
+                <a href="#" class="link"><i class="fas fa-phone"></i>+111-222-333</a>
+                <a href="#" class="link"><i class="fas fa-envelope"></i>Neha-Tech@gmail.com</a>
+                <a href="#" class="link"><i class="fas fa-map"></i>mumbai,India - 401204</a>
+                <div class="share">
+                    <a href="" class="fab fa-facebook-f"></a>
+                    <a href="" class="fab fa-twitter"></a>
+                    <a href="" class="fab fa-instagram"></a>
+                    <a href="" class="fab fa-youtube"></a>
+                </div>
+            </div>
+
+            <div class="box">
+                <h3>Newsletter</h3>
+                <p>Subscribe for latest updates</p>
+                <form action="">
+                    <input class="email" type="email" placeholder="Email Address">
+                    <input class="btn" value="Subscribe" type="submit">
+                </form>
+            </div>
+            
+        </div>
+        <div class="credit">Designed by <span>Neha-Mandale-Tech</span>|| all rights reserved.</div>
+    
+    </section>
+
+    <!--link of javascript file-->
+    <script src="script.js"></script>
+</body>
+
+</html>
